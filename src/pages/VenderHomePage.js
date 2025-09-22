@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import ProductList from "./ProductList";
 import "../vendor-styles.css";
 
-const API_URL = "http://localhost:4001/products"; // use the same port as JSON Server
+const API_URL = "http://localhost:4000/products"; // use the same port as JSON Server
 
 const VendorHome = () => {
   const [products, setProducts] = useState([]);
@@ -30,7 +30,7 @@ const VendorHome = () => {
 
   return (
     <div className="container text-center my-5 vendor-page vendor-home">
-      <h1>Welcome to ShopEase Vendor Portal</h1>
+      <h1>Welcome to LadyLuxe Vendor Portal</h1>
       <p className="lead mt-3">
         Manage your products, view orders, and grow your business with ease.
       </p>

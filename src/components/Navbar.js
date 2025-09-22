@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-3">
-      <Link className="navbar-brand" to="/">ShopEase Vendor</Link>
+      <Link className="navbar-brand" to="/">Lady Luxe💃👜</Link>
       <div className="collapse navbar-collapse">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
@@ -15,9 +15,7 @@ const Navbar = () => {
             <Link className="nav-link" to="/dashboard">Dashboard</Link>
           </li>
           <li className="nav-item">
-            <Link className="btn btn-outline-light ms-2" to="/dashboard">
-              Manage
-            </Link>
+            <Link className="nav-link" to="/dashboard">Manage</Link>
           </li>
         </ul>
       </div>

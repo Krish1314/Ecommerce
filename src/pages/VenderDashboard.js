@@ -3,7 +3,7 @@ import AddProduct from "./AddProduct";
 import ProductList from "./ProductList";
 import "../vendor-styles.css";
 
-const API_URL = "http://localhost:4001/products";
+const API_URL = "http://localhost:4000/products";
 
 const Dashboard = () => {
   const [products, setProducts] = useState([]);
