@@ -127,9 +127,9 @@ function CartPage({
                     </ListGroup.Item>
                   </ListGroup>
                   <Button
-                    variant="success"
+                    onClick={() => navigate("/checkout")} // ✅ Navigate to CheckOutPage
+                    className="w-100 rounded-pill fw-bold btn btn-success"
                     size="lg"
-                    className="w-100 rounded-pill fw-bold"
                   >
                     ✅ Proceed to Checkout
                   </Button>

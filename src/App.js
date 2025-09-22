@@ -14,6 +14,7 @@ import VendorDashboard from "./pages/VenderDashboard";
 import VendorHomePage from "./pages/VenderHomePage";
 import CartPage from "./pages/CartPage";
 import WishlistPage from "./pages/WishlistPage";
+import CheckOutPage from "./pages/CheckOutPage";
 
 function AppContent() {
   const [cart, setCart] = useState([]);
@@ -66,6 +67,7 @@ function AppContent() {
         <Route path="/" element={<Navigate to="/login" replace />} />
         <Route path="/register" element={<RegistrationPage />} />
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/checkout" element={<CheckOutPage cart={cart} />} />
 
         {/* Customer Routes */}
         <Route
